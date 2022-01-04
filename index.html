@@ -10,15 +10,28 @@
   </head>
   <body>
     <main class="main">
-      <article>
-        <img src="avatar.png" alt="Zdjęcie imię i nazwisko"/>
-        <header>
-          <h1>Przemysław Luty</h1>
-          <p>Frontend developer</p>
+      <article class="person">
+        <img
+          class="person__picture"
+          src="avatar.png"
+          alt="Zdjęcie imię i nazwisko"
+        />
+        <header class="person__info">
+          <h1 class="person_name">Przemysław Luty</h1>
+          <p class="person_position">Frontend developer</p>
         </header>
-        <p>Opis doświadczenia
+        <p class="person_description">
+          Jestem osobą z
+          <strong class="special">kilkuletnim doświadczeniem podatkowym</strong>. Świadczyłem
+          usługi dla takich sektorów jak: energetyczny,transportowy,
+          nieruchomości czy nowe technologie.<strong class="special">Właściciel Volvo S60</strong>, gamer i
+          podróżnik. Uwielbiam się uczyć programowania oraz słuchać dobrej
+          muzyki.
         </p>
-        <p>W sieci: Facebook, GitHub, Instagram</p>
+        <p class="person_description">
+            W sieci: <a class="person__link" href="https://www.facebook.com/profile.php?id=100001328259024">Facebook</a>,
+            <a class="person__link" href="https://github.com/PrzemekLuty">GitHub</a>.
+        </p>
       </article>
     </main>
   </body>
